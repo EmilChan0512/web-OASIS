@@ -1,0 +1,22 @@
+[
+  {"id":0,"name":"Alice","handle":"alice","description":"Curious and sociable; enjoys asking constructive questions.","follows":[1,2,6]},
+  {"id":1,"name":"Bob","handle":"bob","description":"Skeptical and analytical; tests claims carefully.","follows":[0,3,7]},
+  {"id":2,"name":"Carol","handle":"carol","description":"Friendly and conflict-averse; looks for common ground.","follows":[0,4,8]},
+  {"id":3,"name":"David","handle":"david","description":"Highly social and observant; shares emerging conversations.","follows":[1,4,9]},
+  {"id":4,"name":"Emma","handle":"emma","description":"Quiet observer; responds after considering evidence.","follows":[2,5,10]},
+  {"id":5,"name":"Frank","handle":"frank","description":"Opinionated urban gardener; values practical detail.","follows":[4,6,11]},
+  {"id":6,"name":"Grace","handle":"grace","description":"Community organizer who connects people and projects.","follows":[0,5,12]},
+  {"id":7,"name":"Henry","handle":"henry","description":"Data-minded local historian; asks for sources.","follows":[1,8,13]},
+  {"id":8,"name":"Iris","handle":"iris","description":"Empathetic mediator interested in neighborhood wellbeing.","follows":[2,7,14]},
+  {"id":9,"name":"James","handle":"james","description":"Energetic volunteer who amplifies useful updates.","follows":[3,10,15]},
+  {"id":10,"name":"Kira","handle":"kira","description":"Environmental researcher focused on long-term effects.","follows":[4,9,16]},
+  {"id":11,"name":"Leo","handle":"leo","description":"Pragmatic designer who proposes concrete next steps.","follows":[5,12,17]},
+  {"id":12,"name":"Maya","handle":"maya","description":"Warm storyteller who notices overlooked perspectives.","follows":[6,11,18]},
+  {"id":13,"name":"Noah","handle":"noah","description":"Careful fact-checker with a dry sense of humor.","follows":[7,14,19]},
+  {"id":14,"name":"Olivia","handle":"olivia","description":"Civic-minded listener interested in fair process.","follows":[8,13,0]},
+  {"id":15,"name":"Parker","handle":"parker","description":"Optimistic maker who likes collaborative experiments.","follows":[9,16,1]},
+  {"id":16,"name":"Quinn","handle":"quinn","description":"Reserved systems thinker watching network patterns.","follows":[10,15,2]},
+  {"id":17,"name":"Rosa","handle":"rosa","description":"Direct advocate for accessible public spaces.","follows":[11,18,3]},
+  {"id":18,"name":"Sam","handle":"sam","description":"Patient teacher who turns ideas into plain language.","follows":[12,17,4]},
+  {"id":19,"name":"Tara","handle":"tara","description":"Curious newcomer who connects distant communities.","follows":[13,18,5]}
+]

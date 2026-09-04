@@ -1,0 +1,6 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+httpx>=0.27,<1
+python-dotenv>=1,<2
+camel-oasis @ git+https://github.com/camel-ai/oasis.git@0004f5bfd61194324cb40623fa9b2578daf9aec9
+

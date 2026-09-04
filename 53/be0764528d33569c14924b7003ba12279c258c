@@ -1,0 +1,60 @@
+README.md
+  s_e97c64edc2b64b::t_90ecf489593218 1-10,12,26-30,32-34,36-39,51,53,55-56
+  s_e97c64edc2b64b::t_3c08dffdb5cdf4 11,13-25,31,35,40-50,52,54
+docs/architecture.md
+  s_e97c64edc2b64b::t_90ecf489593218 1-5
+scripts/dev.ps1
+  s_e97c64edc2b64b::t_90ecf489593218 1-4
+backend/app/simulation/event_adapter.py
+  s_e97c64edc2b64b::t_932a9770082be2 2,16-21,23-29
+  s_e97c64edc2b64b::t_c0eb3de589d1b5 9,22
+frontend/src/vite-env.d.ts
+  s_e97c64edc2b64b::t_b408ad7757c146 1
+.gitignore
+  s_e97c64edc2b64b::t_c0eb3de589d1b5 8
+scripts/run_backend.ps1
+  s_e97c64edc2b64b::t_90ecf489593218 1-7
+docs/future.md
+  s_e97c64edc2b64b::t_90ecf489593218 1-3
+docs/environment.md
+  s_e97c64edc2b64b::t_90ecf489593218 1-2
+  s_e97c64edc2b64b::t_e0bb63383d9fc6 3
+docs/decisions.md
+  s_e97c64edc2b64b::t_90ecf489593218 1-10
+docs/experiment-001.md
+  s_e97c64edc2b64b::t_90ecf489593218 1-2
+  s_e97c64edc2b64b::t_3c08dffdb5cdf4 3-18
+backend/app/config.py
+  s_e97c64edc2b64b::t_e0bb63383d9fc6 4-7
+backend/tests/test_architecture.py
+  s_e97c64edc2b64b::t_e90b8bf6f48e89 25-28
+  s_e97c64edc2b64b::t_90ecf489593218 1-24,29-34
+docs/delivery-report.md
+  s_e97c64edc2b64b::t_3c08dffdb5cdf4 1-17
+backend/app/simulation/runtime.py
+  s_e97c64edc2b64b::t_c0eb3de589d1b5 29-30
+  s_e97c64edc2b64b::t_932a9770082be2 2-22,39-110
+scripts/run_frontend.ps1
+  s_e97c64edc2b64b::t_90ecf489593218 1-5
+scripts/check_vllm.py
+  s_e97c64edc2b64b::t_3c08dffdb5cdf4 3,5-9
+  s_e97c64edc2b64b::t_90ecf489593218 1-2,4,10-20
+docs/api.md
+  s_e97c64edc2b64b::t_3c08dffdb5cdf4 1-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "53be0764528d33569c14924b7003ba12279c258c",
+  "prompts": {},
+  "sessions": {
+    "s_e97c64edc2b64b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06b8f-50e7-7093-9333-22c9ea11e5eb",
+        "model": "GPT-5.6-Terra-joybuilder"
+      },
+      "human_author": "chenyi.266 <chenyi.266@jd.com>"
+    }
+  }
+}

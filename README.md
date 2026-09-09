@@ -36,6 +36,26 @@ From PowerShell run `scripts/dev.ps1`, then open `http://localhost:5173`. It ope
 
 Environment values: `LLM_BASE_URL`, `LLM_API_KEY`, `LLM_MODEL`, `SIMULATION_TICK_SECONDS` (default 8), and `SIMULATION_ACTIVE_AGENTS_PER_TICK` (default 3).
 
+### macOS frontend mock mode
+
+For visual/frontend development without Python, OASIS, vLLM, or a backend, run:
+
+```bash
+scripts/run_frontend_mock.sh
+```
+
+Then open `http://localhost:5173`. This starts an explicitly marked `MOCK DATA` observer using the same 20 agent profiles and initial follow graph as the real UI. **Start**, **Pause**, **Resume**, and **Step once** drive a deterministic, frontend-only event sequence every four seconds. It makes no HTTP, WebSocket, OASIS, or LLM calls and must not be used as evidence of Experiment 001 execution. Alternatively, copy `frontend/.env.mock.example` to `frontend/.env.local` and run `pnpm --dir frontend dev`.
+
+### Language / 语言
+
+The observer defaults to Simplified Chinese (`zh-CN`). Use the `EN` button in the control bar to switch between Chinese and English; the selected locale is stored in browser local storage. UI controls, runtime metrics, event labels, empty states, and Mock event content are translated. OASIS-generated content is preserved verbatim because it is source simulation data.
+
+### UI versions
+
+`version1` is the existing dark operations-console UI and remains the default. `version2` is a separate light, glass-surface UI inspired by current iOS system visual conventions; it retains the same API, graph semantics, controls, Mock boundary, and i18n behavior.
+
+To preview Version 2, copy `frontend/.env.ios26.example` to `frontend/.env.local`. `VITE_IOS26_THEME=light` selects the white glass mode; omit it or set `dark` for black glass. The round monochrome control in the top-right toggles the two themes and remembers the choice locally. For a macOS visual-only preview, create `frontend/.env.local` with both `VITE_UI_VERSION=version2` and `VITE_MOCK_MODE=true`, then run `pnpm --dir frontend dev`.
+
 ## Verifying real execution
 
 1. `python scripts/check_vllm.py` exits successfully and prints the selected model ID.
